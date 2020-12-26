@@ -39,16 +39,19 @@ public class Kalkulator {
                 System.out.println("\nPenjumlahan");
                 result = bil1 + bil2;
                 System.out.format("Hasil: %.2f\n", result);
+                break;
                 
             case 2:
                 System.out.println("\nPengurangan");
                 result = bil1 - bil2;
                 System.out.format("Hasil: %.2f\n", result);
+                break;
             
             case 3:
                 System.out.println("\nPerkalian");
                 result = bil1 * bil2;
                 System.out.format("Hasil: %.2f\n", result);
+                break;
                 
             case 4:
                 System.out.println("\nPembagian");
